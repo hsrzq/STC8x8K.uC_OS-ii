@@ -6,7 +6,17 @@
   "virtualFolder": {
     "name": "<virtual_root>",
     "files": [],
-    "folders": []
+    "folders": [
+      {
+        "name": "uCOS",
+        "files": [
+          {
+            "path": "uC-OS2/Source/ucos_ii.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
   },
   "outDir": "build",
   "deviceName": null,
@@ -37,7 +47,9 @@
       },
       "custom_dep": {
         "name": "default",
-        "incList": [],
+        "incList": [
+          "uC-OS2/Source"
+        ],
         "libList": [],
         "sourceDirList": [],
         "defineList": [
