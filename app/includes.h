@@ -27,6 +27,9 @@
 #ifndef __INCLUDES_H__
 #define __INCLUDES_H__
 
+#include <stdint.h>
 #include "ucos_ii.h"
+
+#include "STC8x8K.h"
 
 #endif // __INCLUDES_H__

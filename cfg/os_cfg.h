@@ -52,6 +52,8 @@
 
 #define OS_TICK_STEP_EN           0u   /* Enable tick stepping feature for uC/OS-View                  */
 #define OS_TICKS_PER_SEC       1000u   /* Set the number of ticks in one second                        */
+#define OS_CPU_MAIN_CLOCK  11059200u   /* Set the main clock frequency in Hz                           */
+#define OS_TICK_TIMER_1T          0u   /* Use 1T or 12T mode for the CPU timer                         */
 
 #define OS_TLS_TBL_SIZE           0u   /* Size of Thread-Local Storage Table                           */
 

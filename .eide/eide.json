@@ -4,7 +4,8 @@
   "dependenceList": [],
   "srcDirs": [
     "app",
-    "cfg"
+    "cfg",
+    "uC-OS2/Ports/STC8x8K/SDCC"
   ],
   "virtualFolder": {
     "name": "<virtual_root>",
@@ -53,7 +54,8 @@
         "incList": [
           "uC-OS2/Source",
           "app",
-          "cfg"
+          "cfg",
+          "uC-OS2/Ports/STC8x8K/SDCC"
         ],
         "libList": [],
         "sourceDirList": [],
